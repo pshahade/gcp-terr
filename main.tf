@@ -1,6 +1,6 @@
-resource "google_storage_bucket" "test-parag-522a33fe" {
-  name          = "auto-expiring-bucket-522a33fe"
-  location      = "europe-west1"
+resource "google_storage_bucket" "auto_expire_paraga_test" {
+  name          = "auto-expiring-bucket-tst-parag"
+  location      = "US"
   force_destroy = true
 
   lifecycle_rule {
