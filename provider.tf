@@ -10,5 +10,4 @@ terraform {
 provider "google" {
   # Configuration options
   project = "prj-g-s-shahade-p-522a33fe"
-  region  = "europe-west1" # Change this to your desired region
 }
